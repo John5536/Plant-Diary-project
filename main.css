@@ -1,0 +1,51 @@
+/*main*/
+body{
+
+    height: 100vh;
+    background: linear-gradient( to bottom right, #BFECFF, #CDC1FF,#FFF6E3, #FFCCEA);
+    font-family: jost;
+    text-align: center;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 400px;
+    font-size: 25px;
+}
+.main-header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 300px;
+    
+}
+
+.index-anchor{
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.signup-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    
+}
+.signup-login label{
+    display: inline-block;
+    width: 80px;
+}
+fieldset{
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 10px;
+    background-color: #FFF6E3;
+    border-color: white;
+    border-width: 1px;
+    
+}

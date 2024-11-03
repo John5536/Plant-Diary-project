@@ -4,22 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My plant Diary</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="header-links">
-        <h1>Welcome</h1>
-        <a href="#">About this site</a>
-        <a href="#">Your Garden</a>
-        <a href="#">Watering schedule</a>
-        </div>
-
-    </header>
+  
     <main>
-        <div>
-        <p>Welcome to your garden. Here you can list all your plants.
+        <h1>Welcome!</h1>
+        <div class="main-container">
+        <p class="intro-text">Welcome to your garden. Here you can list all your plants.
             Please enjoy and remember,automation is not the goal. This is juist so you can once in a whilke have alook at your plants and feel proud about your obsession.
         </p>
+        </div>
+        <div class="signup-login">
+            <h2>Log in</h2>
+            <fieldset>
+            <div class="login">
+                <label for="first">Username</label>
+                <input type="text" id="first" name="first">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div>
+                <button class="index-submit">Submit</button>
+            </div>
+            <div>
+                <p class="Submit-paragraph">Not yet a fellow plant fiend?<a href="#"> <b>Create an account</b></a></p>
+            </div>
+            </fieldset>
+
         </div>
 
     </main>
