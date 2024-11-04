@@ -49,3 +49,14 @@ fieldset{
     border-width: 1px;
     
 }
+
+/*Your garden*/ 
+.your-garden-fieldset{
+    padding-bottom: 300px;
+}
+.yG-list{
+    margin-right: 70%;
+}
+.input-structure{
+    
+}
