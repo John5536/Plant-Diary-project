@@ -1,7 +1,7 @@
 /*main*/
 body{
 
-    height: 100vh;
+    height: 110vh;
     background: linear-gradient( to bottom right, #BFECFF, #CDC1FF,#FFF6E3, #FFCCEA);
     font-family: jost;
     text-align: center;
@@ -41,8 +41,8 @@ body{
     width: 80px;
 }
 fieldset{
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 40%;
+    margin-right: 40%;
     border-radius: 10px;
     background-color: #FFF6E3;
     border-color: white;
@@ -52,11 +52,29 @@ fieldset{
 
 /*Your garden*/ 
 .your-garden-fieldset{
-    padding-bottom: 300px;
+    font-size: 30px;
+    background-color: #CDC1FF;
+    border-radius: 10px;
+    padding: 25px;
+    width: 500px;
+    
+    
+ 
 }
 .yG-list{
-    margin-right: 70%;
+    margin-right: 100%;
 }
 .input-structure{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;   
+}
+
+.plant-input-button{
+    background-color: #BFECFF;
+    border-color: #BFECFF;
+}
+.garden-h2{
+    font-size: 20px;
     
 }
