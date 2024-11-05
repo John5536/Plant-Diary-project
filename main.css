@@ -57,6 +57,7 @@ fieldset{
     border-radius: 10px;
     padding: 25px;
     width: 500px;
+    height: 500px;
     
     
  
@@ -75,6 +76,12 @@ fieldset{
     border-color: #BFECFF;
 }
 .garden-h2{
-    font-size: 20px;
+    font-size: 30px;
+    margin: 0;
     
+    
+}
+
+.plnt_list_output{
+    padding-top: 0;
 }

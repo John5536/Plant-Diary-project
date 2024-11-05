@@ -13,9 +13,9 @@
     <header class="main-header">
         <div class="header-links">
         <h1>Your Garden</h1>
-        <a class="index-anchor" href="#">About this site</a>
-        <a class="index-anchor" href="#">Your Garden</a>
-        <a class="index-anchor" href="#">Watering schedule</a>
+        <a class="index-anchor" href="about.html">About this site</a>
+        <a class="index-anchor" href="yourGarden.html">Your Garden</a>
+        <a class="index-anchor" href="wateringschedule.html">Watering schedule</a>
         </div>
     </header>
     <main>
@@ -24,14 +24,13 @@
         <div class="your-plant-list">
             <label for="text">Input your plants here</label>
             <input type="text" id="user_input1" name="text">
-            <button class="plant-input-button">Add</button>
+            <button onclick="new_plants()" class="plant-input-button">Add</button>
         </div>
                 <div class="your-garden-fieldset">
                 <h2 class="garden-h2">Your plants</h2>
                 <div class="yG-list">
-                <li class="output1" id="output1">
-                    
-                </li>
+                <div class="plnt_list_output" id="output1"> </div>
+                
                 </div>
                 </div>
         </div>
