@@ -57,6 +57,52 @@ fieldset{
     bottom: 0;
     left: 0;
     z-index: -1; 
+    animation: grassSlide;
+    animation-duration: 3s;
+}
+@keyframes grassSlide {
+    from { bottom: -100px; } /* Start position */
+    to { bottom: 0; } /* Resting position */
+}
+.sun-index{
+width: 100%;
+position: fixed;
+bottom: 0;
+left: 0;
+z-index: -2; 
+animation: sunSlide;
+    animation-duration: 2s;
+}
+@keyframes sunSlide {
+    from { bottom: -100%; } /* Start position */
+    to { bottom: 0%; } /* Resting position */
+}
+.cloud-1{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -1;  
+    animation: cloud1Slide; 
+    animation-duration: 3s;
+}
+@keyframes cloud1Slide {
+    from { bottom: -100%; } /* Start position */
+    to { bottom: 0%; } /* Resting position */
+}
+.cloud-2{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -1;  
+    transform-origin: center;
+    animation: cloud2Slide; 
+    animation-duration: 3s;
+}
+@keyframes cloud2Slide {
+    from { bottom: -100%; } /* Start position */
+    to { bottom: 0%; } /* Resting position */
 }
 
 /*Your garden*/ 
