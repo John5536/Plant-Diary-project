@@ -5,3 +5,6 @@ Worked on building out layout of index page/ Created a color palet to match the 
 
 11-05-2024
 It is possible to now add plants to the list via the button using javascript. Another part that was worked on today was in creating the SVG images that will be used as well as making background images for a possible parallax effect in the index page.
+
+11/07/2024
+Project now has a parallax intro on the index page. It works well, but I am considering a video background. I need to reserach into what is possible in terms of memmory usage.
