@@ -4,37 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Garden</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="main.css">
-<script src="index.js"></script>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <header class="main-header">
         <div class="header-links">
         <h1>Your Garden</h1>
-        <a class="index-anchor" href="about.html">About this site</a>
-        <a class="index-anchor" href="yourGarden.html">Your Garden</a>
-        <a class="index-anchor" href="wateringschedule.html">Watering schedule</a>
         </div>
     </header>
     <main>
-       <!-- This part of the code is meant to take an input and then send the result to a list. -->
         <div class="input-structure">
-        <div class="your-plant-list">
-            <label for="text">Input your plants here</label>
-            <input type="text" id="user_input1" name="text">
-            <button onclick="new_plants()" class="plant-input-button">Add</button>
-        </div>
-                <div class="your-garden-fieldset">
+            <div class="your-plant-list">
+                <label for="text">Input your plants here</label>
+                <input type="text" id="user_input1" name="text">
+                <button onclick="new_plants()" class="plant-input-button">Add</button>
+            </div>
+            <div class="your-garden-fieldset">
                 <h2 class="garden-h2">Your plants</h2>
                 <div class="yG-list">
-                <div class="plnt_list_output" id="output1"> </div>
-                
+                    <div class="plnt_list_output" id="output1"> </div>
                 </div>
-                </div>
+            </div>
         </div>
     </main>
-    
+
+    <script src="index.js"></script>
 </body>
 </html>

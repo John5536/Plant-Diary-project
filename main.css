@@ -1,46 +1,41 @@
-/*main*/
-body{
+/* Main Styles */
+body {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient( to bottom right, #BFECFF, #CDC1FF,#FFF6E3, #FFCCEA);
+    background: linear-gradient(to bottom right, #BFECFF, #CDC1FF, #FFF6E3, #FFCCEA);
     font-family: jost;
     text-align: center;
     margin: 0;
-    
 }
 
-.main-container{
+.main-container {
     display: flex;
     flex-direction: column;
     margin-top: 100px;
     font-size: 25px;
 }
-.main-header{
+
+.main-header {
     display: flex;
     text-align: center;
     justify-content: center;
     padding-bottom: 300px;
-    
 }
 
-.index-anchor{
+.index-anchor {
     text-decoration: none;
     margin-left: 30px;
     color: white;
     font-size: 20px;
-
 }
 
-.signup-login{
-    
+.signup-login {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    
-    
 }
 
-fieldset{
+fieldset {
     display: inline-block;
     max-width: 400px;
     border-radius: 10px;
@@ -48,93 +43,77 @@ fieldset{
     border-color: white;
     border-width: 1px;
     margin: 0 auto;
-    
-}
-.grass-index {
+    padding: 20px;
     width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    z-index: -1; 
-    animation: grassSlide;
-    animation-duration: 3s;
-}
-@keyframes grassSlide {
-    from { bottom: -100px; } /* Start position */
-    to { bottom: 0; } /* Resting position */
-}
-.sun-index{
-width: 100%;
-position: fixed;
-bottom: 0;
-left: 0;
-z-index: -2; 
-animation: sunSlide;
-    animation-duration: 2s;
-}
-@keyframes sunSlide {
-    from { bottom: -100%; } /* Start position */
-    to { bottom: 0%; } /* Resting position */
-}
-.cloud-1{
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    z-index: -1;  
-    animation: cloud1Slide; 
-    animation-duration: 3s;
-}
-@keyframes cloud1Slide {
-    from { bottom: -100%; } /* Start position */
-    to { bottom: 0%; } /* Resting position */
-}
-.cloud-2{
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    z-index: -1;  
-    transform-origin: center;
-    animation: cloud2Slide; 
-    animation-duration: 3s;
-}
-@keyframes cloud2Slide {
-    from { bottom: -100%; } /* Start position */
-    to { bottom: 0%; } /* Resting position */
+    height: 500px; 
+    overflow-y: auto; 
 }
 
-/*Your garden*/ 
-.your-garden-fieldset{
+/* Your garden */
+.your-garden-fieldset {
     font-size: 30px;
     background-color: #CDC1FF;
     border-radius: 10px;
-    padding: 25px;
+    padding: 20px;
     width: 500px;
-    height: 500px;
-    
-    
- 
-}
-.yG-list{
-    margin-right: 100%;
-}
-.input-structure{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;   
+    height: 500px; 
 }
 
-.plant-input-button{
+.yG-list {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    margin: 0; 
+    overflow-y: auto; 
+    max-height: 400px; 
+    padding: 0; 
+}
+
+.input-structure {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.plant-input-button {
     background-color: #BFECFF;
     border-color: #BFECFF;
 }
-.garden-h2{
+
+.garden-h2 {
     font-size: 30px;
     margin: 0;
-       
 }
 
-.plnt_list_output{
+.plnt_list_output {
     padding-top: 0;
+}
+
+
+.plant-item {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #FFF6E3;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    box-sizing: border-box;
+}
+
+.delete-btn {
+    background-color: #FF6B6B; 
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #FF4D4D; 
 }
